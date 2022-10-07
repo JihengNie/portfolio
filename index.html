@@ -1,25 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Math Problems</title>
   <link rel="icon" href="images/favicon.ico">
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/copied.css">
+  <style>
+  </style>
 </head>
-<body>
-  <header>
-  </header>
-  <main>
-  </main>
+
+<body class="w3-black">
+
+  <!-- Icon Bar (Sidebar - hidden on small screens) -->
+  <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <img src="images/profile.jpg" style="width:100%">
+
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+      <i class="fa fa-home w3-xxlarge"></i>
+      <p>HOME</p>
+    </a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-user w3-xxlarge"></i>
+      <p>ABOUT</p>
+    </a>
+    <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-eye w3-xxlarge"></i>
+      <p>PHOTOS</p>
+    </a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <i class="fa fa-envelope w3-xxlarge"></i>
+      <p>CONTACT</p>
+    </a>
+  </nav>
+
+  <!-- Navbar on small screens (Hidden on medium and large screens) -->
+  <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+      <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+      <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+      <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+      <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    </div>
+  </div>
+
+  <!-- Page Content -->
+  <div class="w3-padding-large" id="main">
+    <!-- Header/Home -->
+    <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+      <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Jiheng Nie.</h1>
+      <p>Software Engineer and Mathematician.</p>
+    </header>
+
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+      <h2 class="w3-text-light-grey">Jiheng Nie</h2>
+      <hr style="width:200px" class="w3-opacity">
+      <p>Hello world, my name is Jiheng Nie and I am a software engineer based in Irvine, California.</p>
+
+      <p>After graduating from Cal Poly Pomona with Masters in Mathematics and working as a risk analyst, I discovered a passion
+      for software engineering.
+      </p>
+      <p>During my time as a risk analyst, I discovered the power of automation with Python3 for manipulating data frames and
+      loved the challenge of solving real world problems with code. This love for writing code resulting in me wanting to make
+      a career switch, thus began my intensive three month full immersion Web Development program at LearningFuze.
+      </p>
+      <p>I was able to dedicate 10-12 hours a day to learning more about Web Development at LearningFuze. I familiarized myself
+      with new technologies like JavaScript, React.js, and Node.js amongst many others. I am extremely grateful for having had
+      this opportunity and am looking forward to my next challenge in my career as a software engineer!
+      </p>
+      <p>Please feel free to contact me at <br>
+        Niejiheng@gmail.com <br>
+        GitHub:https://github.com/JihengNie
+      </p>
+
+      <!-- Skills -->
+      <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+      <div class="container">
+        <div class="row">
+          <div class="column-full format-skills">
+            <p class="button-84" role="button">HTML</p>
+            <p class="button-84" role="button">CSS</p>
+            <p class="button-84" role="button">JS</p>
+            <p class="button-84" role="button">Python</p>
+            <p class="button-84" role="button">SQL</p>
+            <p class="button-84" role="button">React</p>
+            <p class="button-84" role="button">Tableau</p>
+            <p class="button-84" role="button">GitHub</p>
+            <p class="button-84" role="button">AWS</p>
+            <p class="button-84" role="button">Node</p>
+            <p class="button-84" role="button">SAS</p>
+            <p class="button-84" role="button">Chrome</p>
+            <p class="button-84" role="button">LaTex</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+      <!-- End footer -->
+    </footer>
+
+    <!-- END PAGE CONTENT -->
+  </div>
   <script src="js/data.js"></script>
   <script src="js/main.js"></script>
 </body>

@@ -14,7 +14,8 @@
 }
 
 .column-full,
-.column-half {
+.column-half,
+.column-eighth {
   width: 100%;
 }
 
@@ -30,5 +31,9 @@
 
   .column-half {
     width: 50%;
+  }
+
+  .column-eighth {
+    width: calc(100%/8);
   }
 }

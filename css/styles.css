@@ -8,6 +8,21 @@ h6 {
   font-family: Montserrat, sans-serif;
 }
 
+.format-skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.format-skills p {
+  margin: 0.25rem 0.5rem;
+}
+
+@media (max-width: 420px) {
+  .button-84 {
+    height: 48px;
+  }
+}
+
 .w3-row-padding img {
   margin-bottom: 12px;
 }
