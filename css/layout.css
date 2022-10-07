@@ -15,7 +15,9 @@
 
 .column-full,
 .column-half,
-.column-eighth {
+.column-eighth,
+.column-third,
+.column-two-third {
   width: 100%;
 }
 
@@ -35,5 +37,13 @@
 
   .column-eighth {
     width: calc(100%/8);
+  }
+
+  .column-third {
+    width: calc(100%/3);
+  }
+
+  .column-two-third {
+    width: calc(200%/3);
   }
 }
