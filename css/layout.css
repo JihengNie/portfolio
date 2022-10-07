@@ -14,7 +14,10 @@
 }
 
 .column-full,
-.column-half {
+.column-half,
+.column-eighth,
+.column-third,
+.column-two-third {
   width: 100%;
 }
 
@@ -30,5 +33,17 @@
 
   .column-half {
     width: 50%;
+  }
+
+  .column-eighth {
+    width: calc(100%/8);
+  }
+
+  .column-third {
+    width: calc(100%/3);
+  }
+
+  .column-two-third {
+    width: calc(200%/3);
   }
 }
