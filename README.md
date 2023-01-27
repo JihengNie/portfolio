@@ -1,3 +1,3 @@
-# code-journal
+# Portfolio
 
-An HTML, CSS, and JavaScript journal app.
+A portfolio page of my work
